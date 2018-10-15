@@ -5,7 +5,7 @@ echo " Hello from script $0"
 
 echo " We will be calling a depended script called 'echo 2' "
 
-/home/user/Linux_Training/echo2.sh
+echo2.sh
 
 if [ $? -eq 0 ]
 then
@@ -13,3 +13,4 @@ then
 else
 	echo "failed"
 fi
+echo
